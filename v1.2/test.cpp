@@ -85,14 +85,14 @@ VOID WINAPI app_deinit(VOID)
 
 VOID WINAPI print_cmd_list(VOID)
 {
-	__string tstr = TEXT("Valid Arguments:\r\n\r\n");
+	__string str = TEXT("Valid Arguments:\r\n\r\n");
 
-	tstr += TEXT("\"bitcrush\": Audio Bit Crush\r\n");
-	tstr += TEXT("\"reverse\": Audio Reverse\r\n");
-	tstr += TEXT("\"channelswap\": Audio Channel Swap\r\n");
-	tstr += TEXT("\"channelsubtract\": Audio Channel Subtract\r\n\r\n");
+	str += TEXT("\"bitcrush\": Audio Bit Crush\r\n");
+	str += TEXT("\"reverse\": Audio Reverse\r\n");
+	str += TEXT("\"channelswap\": Audio Channel Swap\r\n");
+	str += TEXT("\"channelsubtract\": Audio Channel Subtract\r\n\r\n");
 
-	console_stdout_write(tstr.c_str());
+	console_stdout_write(str.c_str());
 	return;
 }
 
