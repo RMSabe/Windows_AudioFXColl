@@ -22,7 +22,8 @@
 //if neither is defined, __NTWIN will be defined by default
 
 //#define __DOSWIN
-//#define __NTWIN
+
+#define __NTWIN
 
 //======================================================================================
 //Text Definition
